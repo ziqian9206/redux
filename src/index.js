@@ -19,7 +19,6 @@ store.dispatch(updateCart('Flour 1kg', 5, 110));
 store.dispatch(deleteCart('Coffee 500gm'));
 unsubscribe();
 
-
 const App = <h1>Redux shopping cart</h1>
 
 ReactDOM.render(
